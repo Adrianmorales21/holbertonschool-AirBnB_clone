@@ -1,0 +1,29 @@
+.places-title {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 30px;
+}
+
+.articles {
+    margin-left: 1.5rem;
+}
+
+.articles .art-cent {
+    margin-left: 15rem;
+}
+
+.articles article {
+    display: inline-block;
+    align-content: center;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+
+}
+
+.arti-title {
+    font-size: 30px;
+    text-align: center;
+}
