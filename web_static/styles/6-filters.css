@@ -1,0 +1,130 @@
+.filters {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.filters div {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.locations,
+.amenities {
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.filter-title {
+    padding-left: 20%;
+    margin: 0;
+}
+
+.filter-subtitle {
+    padding: 0;
+    padding-left: 20%;
+    margin: 0;
+}
+
+.amenities .popover {
+    margin-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.amenities .popover li {
+    margin-bottom: 0.5rem;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations .popover li {
+    margin-bottom: 0.5rem;
+}
+
+.locations .popover {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.amenitiies {
+    margin-left: 0;
+}
+
+.locations .popover,
+.amenities .popover {
+    display: none;
+    position: absolute;
+    top: 79%;
+    right: 0px;
+    width: 83%;
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+    list-style-type: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
+h3,
+h4 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.search-button {
+    position: absolute;
+    font-size: 18px;
+    height: 48px;
+    width: 11%;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    right: 28rem;
+}
+
+.search-button:hover {
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.locations .popover li ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.locations .popover li ul li {
+    margin: 5px 0;
+}
